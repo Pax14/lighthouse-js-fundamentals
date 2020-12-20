@@ -5,7 +5,7 @@ const finalPosition = moves => {
   let finalSpotY = 0;
 
   for (const move of moves) {
-    if (move === 'north'){
+    if (move === 'north') {
       finalSpotY++
     } else if (move === 'south') {
       finalSpotY--
